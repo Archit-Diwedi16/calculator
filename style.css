@@ -7,12 +7,15 @@ h1 {
     margin-top: 50px;
 }
 
-input {
+#input {
     width: 40%;
     height: 40px;
     margin-left: 30%;
     margin-right: 30%;
     background-color: rgba(52, 73, 94, 0.5);
+    color: aliceblue;
+    text-align: right;
+    font-size:xx-large;
 }
 
 table {
