@@ -16,13 +16,13 @@
 
 
         <div class='Calculator'>
-            <input type="text" class="input" name="screen" readonly>
+            <input type="text" id="input" name="screen" readonly>
 
-            <table>
+            <table id="buttons">
                 <tr>
                     <td><button class="clear"><b>AC</b></button></td>
+                    <td><button class="clear">&lt~</button></td>
                     <td><button class="clear"><b>+/-</b></button></td>
-                    <td><button class="clear"><b>%</b></button></td>
                     <td><button class="operator"><b>/</b></button></td>
                 </tr>
                 <tr>
@@ -54,3 +54,5 @@
 
     </div>
 </body>
+<script src="calculatorService.js"></script>
+</html>
